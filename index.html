@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
+	<title>Welcome to the Code Fellows 201 guessing game </title>
+<head><
 </head>
 <body>
-	<h1> What super-spy would you be? | Learn more about Albert Reel</h1>
-	<p id="Left">Bond Actors: </p>
-	<p id="Right">Sean Connery<br>David Niven<br>George Lazenby<br>
+	<h1> Guess about me! | Learn more about Albert Reel</h1>
 
 	<script>
-		var userName = prompt("May I have you name: ","007");
+		var userName = prompt("May I have you name: ","");
 		console.log("User Name: "+userName)
-		window.confirm(userName + " would you like to play a game?");
-		var guess1 = prompt("Who played Bond best?: ","Connery")
+		window.confirm(userName + ", would you like to play a game?");
+		var guess1 = prompt("The Portland Timbers are playing against Seattle Sounders: Do you fake food poisoning to get out of work and go?: ","Yes/No");
+		var guess2 = prompt("You see your boss at the pub before you enter, Do you still go in?: ","Yes/No");
+		var guess1 = prompt("Seattle is beating Portland 2-0. Do you go home and cry along in a pint of craft IPA","Yes/No");
+
+
+
 		setTimeout(function() {alert("Thanks for playing "+userName+". Your score is: "+score+" of 4. This dialog box will self destruct in 10.. 9.. 8..."); }, 10000);
 
 
