@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html>
 	<title>Welcome to the Code Fellows 201 guessing game </title>
-<head><
+<head>
 </head>
 <body>
 	<h1> Guess about me! | Learn more about Albert Reel</h1>
 
 	<script>
 		var userName = prompt("May I have you name: ","");
-		console.log("User Name: "+userName)
+		console.log("User Name: "+userName);
 		window.confirm(userName + ", would you like to play a game?");
 		var guess1 = prompt("The Portland Timbers are playing against Seattle Sounders: Do you fake food poisoning to get out of work and go?: ","Yes/No");
 		var guess2 = prompt("You see your boss at the pub before you enter, Do you still go in?: ","Yes/No");
-		var guess1 = prompt("Seattle is beating Portland 2-0. Do you go home and cry along in a pint of craft IPA","Yes/No");
+		var guess1 = prompt("Seattle is beating Portland 2-0. Do you go home and cry alone in a pint of craft IPA","Yes/No");
+		var returnMsg = "Well "+userName;
+		if (guess1.toLowerCase === "yes") {
+			message += " you definately have the right spirit about soccer. I too would find a way to go or atleast watch. ";
+		}
+		else (guess2.toLowerCase === "no") {
+			message += "I suppose the world does need doctors...";
+		}
+		if (guess2.toLowerCase === "yes") {
+			message += "The first round ought to be on my boss. Hops and barley are the best medicine for calling in sick.";
+		}
+		else (guess2.toLowerCase === "no") {
+			message += " Your absolutely right, perhaps a cup of tea and Orange is the new black. ";
+		}
 
-
+		if (guess3.toLowerCase === "no") {
+			message += " Even if the sleezy Seattle boys are up on the score, Rose City never surrenders.";
+		}
+		else (guess2.toLowerCase === "yes") {
+			message += "RE: Question 3, You miss-spelled no, also acceptable would be: Never, nope, or Not going to happen";
+		}
 
 		setTimeout(function() {alert("Thanks for playing "+userName+". Your score is: "+score+" of 4. This dialog box will self destruct in 10.. 9.. 8..."); }, 10000);
 
