@@ -1,3 +1,4 @@
 # guessing-game
 
-### This JavaScript program will ask 3 questions with a stretch goal of a guessing game with a random integer
+### This JavaScript program will ask 3 questions in a small game that records points.
+### The stretch goal of a random number game has been achieved. Branch merged to master.
