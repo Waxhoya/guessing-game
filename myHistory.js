@@ -1,6 +1,5 @@
 
 function myHistory() {
-	var userName = prompt("May I have you name: ","");
 	console.log("User Name: "+userName);
 
 	window.confirm(userName + ", would you like to play a game?");
