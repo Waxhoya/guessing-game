@@ -1,8 +1,14 @@
+var userName;
+function meetAJ () {
+	if (!userName) {
+		var userName = prompt("What is your name?");
+	}
+}
 
 function myHistory() {
-	console.log("User Name: "+userName);
-
-	window.confirm(userName + ", would you like to play a game?");
+	if (!userName) {
+		var userName = prompt("What is your name?");
+	}
 
 	var guess1 = prompt("The Portland Timbers are playing against Seattle Sounders: Do you fake food poisoning to get out of work and go?: ","yes/no");
 	if (guess1 == "yes") {
