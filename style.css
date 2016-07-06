@@ -1,0 +1,10 @@
+body {
+	text-align: center;
+	font-family: 'Galada', cursive;
+	background-color: #9CECC5;
+}
+ul {
+	background-color: white;
+	text-decoration: none;
+	list-style-type: none;
+}
