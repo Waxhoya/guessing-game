@@ -1,22 +1,53 @@
+
 body {
+	margin:8%;
+  background-image: url("pBackground.png");
+  background-repeat: repeat;
 	text-align: center;
-	font-family: 'Jura', 'Galada', cursive;
-	background-color: #9CECC5;
-	padding-left: 12%;
-	padding-right: 12%;
-
 }
-ul {
-	text-decoration: none;
-	list-style-type: none;
+
+h1{
+	font-size: 3em;
+	font-family: "Jura", sans-serif;
+	text-align: center;
+	color: #FFF;
+	background-color: #1a664e;
+}
+
+h2, h3, h4, h5, h6, {
+	font-family: "Jura", sans-serif;
+	text-align: center;
+	color: #FFF;
+}
+
+p{
+	font-family: "Jura", sans-serif;
 	text-align: left;
-	margin-left; .5ms;
-	text-overflow: hidden;
 }
-li.inline {
-	display: inline;
-	padding: 8px;
-	font-family: 'Galada', sans-serif;
-	position: fixed;
 
+.inlined {
+	vertical-align: 49%;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #788D68;
+	padding: 12px;
+}
+nav ul {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #272E58;
+	padding: 12px;
+}
+.success {
+	background: green;
+	font-weight: bold;
+}
+.failure {
+	background: red;
+	font-weight: lighter;
 }
