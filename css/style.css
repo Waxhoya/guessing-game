@@ -1,0 +1,67 @@
+body {
+	margin:8%;
+  background-image: url("../pics/pBackground.png");
+  background-repeat: repeat;
+	text-align: center;
+		font-family: "Jura", sans-serif;
+}
+
+h1{
+	font-size: 3em;
+	font-family: "Jura", sans-serif;
+	text-align: center;
+	color: #FFF;
+	background-color: #185743;
+}
+
+h4 {
+	text-transform: capitalize;
+}
+
+h2, h3, h4, h5, h6, {
+	font-family: "Jura", sans-serif;
+	text-align: center;
+	color: #FFF;
+}
+
+p{
+	font-family: "Jura", sans-serif;
+	text-align: left;
+}
+
+.inlined {
+	vertical-align: 49%;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #788D68;
+	margin-left: 8px;
+	margin-right: 24px;
+	list-style: none;
+	font-size: 24px;
+	padding: 12px;
+	padding-bottom: 12px;
+}
+
+ul li {
+	padding: 8px;
+}
+
+nav ul {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #272E58;
+	padding: 12px;
+}
+.success {
+	background: green;
+	font-weight: bold;
+}
+.failure {
+	background: red;
+	font-weight: lighter;
+}
