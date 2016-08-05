@@ -1,4 +1,4 @@
-#Guessing game about ALbert Reel
+#Guessing game about Albert Reel
 ##### Code fellows 201 class04 README.md
 
 related code is run with *Week 4 update* button
